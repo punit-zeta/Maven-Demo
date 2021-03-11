@@ -1,4 +1,4 @@
-Testing/JUnitTestCopy.class
-Testing/JUnitTest.class
-Testing/Addition.class
-Testing/JUnitTestSuite.class
+test/Addition.class
+test/JUnitTestCopy.class
+test/JUnitTest.class
+test/JUnitTestSuite.class

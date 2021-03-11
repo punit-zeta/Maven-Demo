@@ -1,0 +1,68 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.example.sonar:demoMavenProject:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 50, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------< org.example.sonar:demoMavenProject >-----------------
+[INFO] Building demoMavenProject 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ demoMavenProject ---
+[INFO] Deleting /Users/punit.s/IdeaProjects/demoMavenProject/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ demoMavenProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ demoMavenProject ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /Users/punit.s/IdeaProjects/demoMavenProject/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ demoMavenProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/punit.s/IdeaProjects/demoMavenProject/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ demoMavenProject ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to /Users/punit.s/IdeaProjects/demoMavenProject/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ demoMavenProject ---
+[INFO] Surefire report directory: /Users/punit.s/IdeaProjects/demoMavenProject/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+Running test.JUnitTest
+test JUnitTest ...
+
+Running test number 1
+Finished test number 1
+Finished JUnitTest !!!
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ demoMavenProject ---
+[INFO] Building jar: /Users/punit.s/IdeaProjects/demoMavenProject/target/demoMavenProject-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ demoMavenProject ---
+[INFO] Installing /Users/punit.s/IdeaProjects/demoMavenProject/target/demoMavenProject-1.0-SNAPSHOT.jar to /Users/punit.s/.m2/repository/org/example/sonar/demoMavenProject/1.0-SNAPSHOT/demoMavenProject-1.0-SNAPSHOT.jar
+[INFO] Installing /Users/punit.s/IdeaProjects/demoMavenProject/pom.xml to /Users/punit.s/.m2/repository/org/example/sonar/demoMavenProject/1.0-SNAPSHOT/demoMavenProject-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.119 s
+[INFO] Finished at: 2021-03-10T18:30:40+05:30
+[INFO] ------------------------------------------------------------------------

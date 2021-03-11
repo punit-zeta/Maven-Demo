@@ -1,16 +1,16 @@
-package Testing;
+package test;
 
 import org.junit.*;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
-public class JUnitTest {
-
+public class JUnitTestCopy {
     static int test = 0;
 
     @BeforeClass
     public static void startTesting(){
-        System.out.println("Testing "+JUnitTest.class.getSimpleName()+" ...");
+        System.out.println("test " +JUnitTestCopy.class.getSimpleName()+" ...");
         System.out.println();
     }
 
@@ -21,13 +21,10 @@ public class JUnitTest {
     }
 
     @Test
-    public void addPositive(){
+    public void addNegative(){
         Addition obj = new Addition();
-        assertEquals(10,obj.add(2,8));
-        assertNotEquals(0,obj.add(2,8));
-        assertArrayEquals(new int[]{10,20},new int[]{obj.add(2,8),obj.add(12,8)});
-        assertFalse(12 == obj.add(2,8));
-        assertSame(10,obj.add(2,8));
+        assertEquals(-10,obj.add(-2,-8));
+        assertNotEquals(0,obj.add(-2,-8));
     }
 
     @After
@@ -37,8 +34,8 @@ public class JUnitTest {
 
     @AfterClass
     public static void endTesting(){
-        System.out.println("Finished "+JUnitTest.class.getSimpleName()+" !!!");
         System.out.println();
+        System.out.println("Finished "+JUnitTestCopy.class.getSimpleName()+" !!!");
     }
 
 }

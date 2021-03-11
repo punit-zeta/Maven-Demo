@@ -1,4 +1,4 @@
-package Testing;
+package test;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
@@ -6,8 +6,8 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         // All test files
-        Testing.JUnitTest.class,
-        Testing.JUnitTestCopy.class
+        test.JUnitTest.class,
+        test.JUnitTestCopy.class
 })
 public class JUnitTestSuite {
 }
