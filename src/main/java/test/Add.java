@@ -14,8 +14,6 @@ public class Add {
 
 class Subtraction{
     public int sub(int a,int b){
-        a = 10;
-        a=5;
         if(a > 0) return b;
         else return a;
     }
