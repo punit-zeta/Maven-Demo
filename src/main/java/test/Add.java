@@ -3,12 +3,6 @@ package test;
 public class Add {
 
     public int add(int a, int b) {
-        System.out.println("a");
-        System.out.println("a");
-        System.out.println("a");
-        System.out.println("a");
-        System.out.println("a");
-        System.out.println("a");
         return a + b;
 
     }
