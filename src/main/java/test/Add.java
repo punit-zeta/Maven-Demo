@@ -17,3 +17,9 @@ class Subtraction{
         else return a;
     }
 }
+class SubtractionCopy{
+    public int sub(int a,int b){
+        if(a > 0) return b;
+        else return a;
+    }
+}
